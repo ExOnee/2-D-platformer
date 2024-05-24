@@ -21,7 +21,7 @@ public class MovingMonster : Unit
     }
 
     protected override void Start()
-    {
+    { 
         direction = transform.right;
     }
 
