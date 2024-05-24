@@ -10,7 +10,7 @@ public class Heal : MonoBehaviour
 
         if (character)
         {
-            character.Lives++;
+            character.Lives++; 
             Destroy(gameObject);
         }
     }
