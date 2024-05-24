@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     private GameObject parent;
     public GameObject Parent { set { parent = value; }  get { return parent; } }
     private float speed = 10.0F;
-    private Vector3 direction;
+    private Vector3 direction; 
     public Vector3 Direction { set { direction = value; } }
 
     private SpriteRenderer sprite;
