@@ -10,7 +10,7 @@ public class LivesBar : MonoBehaviour
 
     private void Awake()
     {
-        character = FindObjectOfType<Character>();
+        character = FindObjectOfType<Character>(); 
         for (int i = 0; i < hearts.Length; i++)
         {
             hearts[i] = transform.GetChild(i);
